@@ -20,6 +20,10 @@ async function routes(fastify, options, done) {
         done();
     });
 
+    fastify.get('/simple-page', (request, reply) => {
+        return reply.sendFile('html/simple-page.html');
+    });
+
     fastify.get('/maybe', (request, reply) => {
         const num = Math.round(Math.random());
         const response = num ? 'yes' : 'nope';

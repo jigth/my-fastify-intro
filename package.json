@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.20.2"
+    "fastify": "^3.20.2",
+    "fastify-static": "^4.2.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"

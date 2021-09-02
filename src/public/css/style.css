@@ -1,0 +1,13 @@
+body {
+    background: #222;
+    font-size: 24px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+    color: orange;
+}
+
+p {
+    color: white;
+}
